@@ -34,13 +34,7 @@ class BookControllerTest {
         assertThat(bookController).isNotNull();
     }
 
-//    @Test
-//    public void getAllBooksFromDatabaseTest() throws Exception {
-//
-//        mockMvc.perform(MockMvcRequestBuilders.get("/library/booksList"))
-//                .andExpect(MockMvcResultMatchers.status().isOk())
-//                .andExpect(MockMvcResultMatchers.view().name("/books/books-collection"));
-//    }
+
 
 
 }

@@ -1,6 +1,6 @@
-package com.assignment.root.Assignment.config;
+package com.assignment.root.assignment.config;
 
-import com.assignment.root.Assignment.entity.User;
+import com.assignment.root.assignment.entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

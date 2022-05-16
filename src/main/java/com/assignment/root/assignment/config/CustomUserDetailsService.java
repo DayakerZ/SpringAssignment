@@ -1,7 +1,7 @@
-package com.assignment.root.Assignment.config;
+package com.assignment.root.assignment.config;
 
-import com.assignment.root.Assignment.dao.UserRepository;
-import com.assignment.root.Assignment.entity.User;
+import com.assignment.root.assignment.dao.UserRepository;
+import com.assignment.root.assignment.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

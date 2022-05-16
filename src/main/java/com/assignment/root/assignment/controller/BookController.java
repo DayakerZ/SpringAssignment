@@ -1,7 +1,7 @@
-package com.assignment.root.Assignment.controller;
+package com.assignment.root.assignment.controller;
 
-import com.assignment.root.Assignment.entity.Book;
-import com.assignment.root.Assignment.service.BookService;
+import com.assignment.root.assignment.entity.Book;
+import com.assignment.root.assignment.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

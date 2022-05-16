@@ -1,4 +1,4 @@
-package com.assignment.root.Assignment.config;
+package com.assignment.root.assignment.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

@@ -1,6 +1,6 @@
-package com.assignment.root.Assignment.dao;
+package com.assignment.root.assignment.dao;
 
-import com.assignment.root.Assignment.entity.User;
+import com.assignment.root.assignment.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

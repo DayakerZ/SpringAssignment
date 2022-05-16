@@ -1,7 +1,8 @@
-package com.assignment.root.Assignment.service;
+package com.assignment.root.assignment.service;
 
-import com.assignment.root.Assignment.dao.BookRepository;
-import com.assignment.root.Assignment.entity.Book;
+import com.assignment.root.assignment.dao.BookRepository;
+import com.assignment.root.assignment.entity.Book;
+import com.assignment.root.assignment.exceptions.BookNotFoudException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +28,7 @@ public class BookServiceImpl implements BookService{
     }
 
     @Override
-    public Book findById(int theId) {
+    public Book findById(int theId) throws BookNotFoudException {
         Optional<Book> result = bookRepository.findById(theId);
 
        Book book = null;
@@ -36,7 +37,7 @@ public class BookServiceImpl implements BookService{
             book = result.get();
         }
         else {
-            throw new RuntimeException("Did not find employee id - " + theId);
+            throw new BookNotFoudException("The book not found with id :"+ theId);
         }
 
         return book;

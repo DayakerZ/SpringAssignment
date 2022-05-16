@@ -1,8 +1,7 @@
-package com.assignment.root.Assignment.controller;
+package com.assignment.root.assignment.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 @Controller
 public class HomeController {

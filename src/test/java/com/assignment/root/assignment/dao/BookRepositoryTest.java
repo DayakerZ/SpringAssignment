@@ -1,6 +1,5 @@
-package com.assignment.root.Assignment.dao;
+package com.assignment.root.assignment.dao;
 
-import com.assignment.root.Assignment.entity.Book;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

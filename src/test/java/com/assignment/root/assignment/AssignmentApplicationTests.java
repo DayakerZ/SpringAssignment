@@ -1,9 +1,7 @@
-package com.assignment.root.Assignment;
+package com.assignment.root.assignment;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import javax.persistence.Table;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 

@@ -1,6 +1,6 @@
-package com.assignment.root.Assignment;
+package com.assignment.root.assignment;
 
-import com.assignment.root.Assignment.dao.UserRepository;
+import com.assignment.root.assignment.dao.UserRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;

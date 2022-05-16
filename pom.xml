@@ -15,6 +15,15 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+		<sonar.organization>dayakerz</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.sources>src/main/java</sonar.sources>
+		<sonar.language>java</sonar.language>
+		<sonar.exclusions>
+			**/com/assignment/root/assignment/entity/**,
+			**/com/assignment/root/assignment/dao/**,
+			**/com/assignment/root/assignment/exceptions/**,
+		</sonar.exclusions>
 	</properties>
 	<dependencies>
 

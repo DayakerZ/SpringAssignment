@@ -1,10 +1,8 @@
-package com.assignment.root.Assignment.dao;
+package com.assignment.root.assignment.dao;
 
 
-import com.assignment.root.Assignment.entity.Book;
+import com.assignment.root.assignment.entity.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.List;
 
 public interface BookRepository extends JpaRepository<Book, Integer> {
 
